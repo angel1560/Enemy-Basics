@@ -10,4 +10,5 @@ public class EnemyProfile : ScriptableObject
     public float attackRange = 3;
     public float warningRange = 7;
     public GameObject enemyPrefab;
+    public EnemyWeaponData basicWeapon;
 }

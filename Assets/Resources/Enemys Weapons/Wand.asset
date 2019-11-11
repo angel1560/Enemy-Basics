@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde2fd38437687c429debd6d0fc7f77c, type: 3}
-  m_Name: Espada Diamante
+  m_Name: Wand
   m_EditorClassIdentifier: 
-  name: Espada
-  icon: {fileID: 6937523279768765334, guid: b4f104bea3158344e88b91eec06fd984, type: 3}
+  icon: {fileID: 0}
   description: 
   damage: 6

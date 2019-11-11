@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Elf : EnemyBehaviour
 {
-    public EnemyWeaponData magoWeapon;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +23,7 @@ public class Elf : EnemyBehaviour
 
             if (PlayerOnAttackRange())
             {
-               AttackPlayer(magoWeapon);
+               AttackPlayer();
                yield return new WaitForSeconds(3);
             }
 

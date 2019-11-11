@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 964fc75a3fbce8346a620c6696503d8a, type: 3}
-  m_Name: Enemigo 3
+  m_Script: {fileID: 11500000, guid: bde2fd38437687c429debd6d0fc7f77c, type: 3}
+  m_Name: Bow
   m_EditorClassIdentifier: 
-  name: New enemy
-  hp: 25
-  speed: 4
-  level: 1
-  enemyPrefab: {fileID: 2826466934324692069, guid: d032084e9d76229428feacd28dacb468,
-    type: 3}
+  icon: {fileID: -7891960940138201444, guid: b4f104bea3158344e88b91eec06fd984, type: 3}
+  description: 
+  damage: 3

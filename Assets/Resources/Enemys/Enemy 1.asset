@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 964fc75a3fbce8346a620c6696503d8a, type: 3}
-  m_Name: Enemigo 4
+  m_Name: Enemy 1
   m_EditorClassIdentifier: 
-  name: New enemy
   hp: 25
   speed: 4
-  level: 1
-  enemyPrefab: {fileID: 2826466934324692069, guid: 34159077b392f9348a3314acc9dc87b5,
+  attackRange: 3
+  warningRange: 7
+  enemyPrefab: {fileID: 2826466934324692069, guid: d09a90c3910ba2c4db0543137e513082,
     type: 3}
+  basicWeapon: {fileID: 11400000, guid: f4f546dc58a86f842a1af2ccbee6cad1, type: 2}

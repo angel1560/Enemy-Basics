@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2826466934324692073}
   - component: {fileID: 2826466934324692070}
   - component: {fileID: 2826466934324692071}
-  - component: {fileID: 2826466934324692068}
+  - component: {fileID: 7622704539714473443}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -117,7 +117,7 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &2826466934324692068
+--- !u!114 &7622704539714473443
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,15 +126,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2826466934324692069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c8474508cc97e74db39dafc9a5f18fb, type: 3}
+  m_Script: {fileID: 11500000, guid: b8ad7462fdbf5b04086aee66f862a3b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 2826466934324692071}
-  hp: 100
-  attackRange: 12
-  baseWeapon: {fileID: 11400000, guid: c15e47c09374aaf44a8af2a8a52b03c3, type: 2}
-  wayPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  magoWeapon: {fileID: 0}
+  wayPoints: []
+  magoWeapon: {fileID: 11400000, guid: f4f546dc58a86f842a1af2ccbee6cad1, type: 2}
